@@ -28,13 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.rowTextBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.colTextBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.priceLabel = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // rowTextBox
+            // 
+            this.rowTextBox.Location = new System.Drawing.Point(100, 19);
+            this.rowTextBox.Name = "rowTextBox";
+            this.rowTextBox.Size = new System.Drawing.Size(100, 20);
+            this.rowTextBox.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(25, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(69, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Enter a Row:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 62);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(82, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Enter a Column:";
+            // 
+            // colTextBox
+            // 
+            this.colTextBox.Location = new System.Drawing.Point(100, 59);
+            this.colTextBox.Name = "colTextBox";
+            this.colTextBox.Size = new System.Drawing.Size(100, 20);
+            this.colTextBox.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(232, 42);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Seat Price:";
+            // 
+            // priceLabel
+            // 
+            this.priceLabel.Enabled = false;
+            this.priceLabel.Location = new System.Drawing.Point(297, 39);
+            this.priceLabel.Name = "priceLabel";
+            this.priceLabel.Size = new System.Drawing.Size(100, 20);
+            this.priceLabel.TabIndex = 5;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(419, 450);
+            this.Controls.Add(this.priceLabel);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.colTextBox);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.rowTextBox);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox rowTextBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox colTextBox;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox priceLabel;
     }
 }
 
