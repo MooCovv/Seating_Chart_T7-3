@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seating_Chart_T7-3", "Seating_Chart_T7-3\Seating_Chart_T7-3.csproj", "{39B02C6D-3108-4679-9F75-40A317908A1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39B02C6D-3108-4679-9F75-40A317908A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39B02C6D-3108-4679-9F75-40A317908A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39B02C6D-3108-4679-9F75-40A317908A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39B02C6D-3108-4679-9F75-40A317908A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {491D10EC-9C6C-4108-A18B-2BF97F89019C}
+	EndGlobalSection
+EndGlobal
