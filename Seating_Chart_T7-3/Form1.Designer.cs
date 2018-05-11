@@ -34,6 +34,8 @@
             this.colTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.priceLabel = new System.Windows.Forms.TextBox();
+            this.displayPriceButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rowTextBox
@@ -85,11 +87,33 @@
             this.priceLabel.Size = new System.Drawing.Size(100, 20);
             this.priceLabel.TabIndex = 5;
             // 
+            // displayPriceButton
+            // 
+            this.displayPriceButton.Location = new System.Drawing.Point(100, 110);
+            this.displayPriceButton.Name = "displayPriceButton";
+            this.displayPriceButton.Size = new System.Drawing.Size(75, 43);
+            this.displayPriceButton.TabIndex = 6;
+            this.displayPriceButton.Text = "Display Price";
+            this.displayPriceButton.UseVisualStyleBackColor = true;
+            this.displayPriceButton.Click += new System.EventHandler(this.displayPriceButton_Click);
+            // 
+            // exitButton
+            // 
+            this.exitButton.Location = new System.Drawing.Point(235, 110);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(75, 43);
+            this.exitButton.TabIndex = 7;
+            this.exitButton.Text = "Exit";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(419, 450);
+            this.ClientSize = new System.Drawing.Size(419, 174);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.displayPriceButton);
             this.Controls.Add(this.priceLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.colTextBox);
@@ -97,7 +121,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.rowTextBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Seating Chart";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,6 +135,8 @@
         private System.Windows.Forms.TextBox colTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox priceLabel;
+        private System.Windows.Forms.Button displayPriceButton;
+        private System.Windows.Forms.Button exitButton;
     }
 }
 
